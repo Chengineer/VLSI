@@ -1,0 +1,150 @@
+irun(64): 15.10-s014: (c) Copyright 1995-2016 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.10-s014: Started on Jan 19, 2017 at 13:26:31 IST
+irun
+	PART_C_TB.v
+	-debug
+	-gui
+Recompiling... reason: file './PART_C.v' is newer than expected.
+	expected: Wed Jan 18 20:00:10 2017
+	actual:   Thu Jan 19 13:26:27 2017
+file: PART_C_TB.v
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ALU_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ALU:v <0x1c743445>
+			streams:   2, words:  2235
+		worklib.ALU_tb:v <0x088501d7>
+			streams:   9, words:  9934
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   2       2
+		Registers:                 7       7
+		Vectored wires:            7       -
+		Always blocks:             1       1
+		Initial blocks:            2       2
+		Cont. assignments:         2       2
+		Pseudo assignments:        5       5
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: worklib.ALU_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /opt/cadence/INCISIV151/tools/inca/files/ncsimrc
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm ALU_tb.In1 ALU_tb.In2 ALU_tb.Imm ALU_tb.UUT.ImmExt ALU_tb.Sh ALU_tb.ALU_msg ALU_tb.ALUop ALU_tb.Result
+Created probe 1
+ncsim> run
+                   0
+In1=00000000000000000000000000000000,
+In2=00000000000000000000000000000000,
+Imm=0000000000000000,
+UUT.ImmExt=00000000000000000000000000000000,
+Sh= 0,
+ALU_msg=                                                               ,
+ALUop=1,
+Result=00000000000000000000000000000000
+
+                   2
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                               ,
+ALUop=1,
+Result=00000000000000000000000000001000
+
+                   4
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            ADD,
+ALUop=0,
+Result=00000000000000000000000000000010
+
+                   6
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            SUB,
+ALUop=1,
+Result=00000000000000000000000000001000
+
+                   8
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=11111111111111111111111111110100,
+Sh= 2,
+ALU_msg=                                                           ADDI,
+ALUop=2,
+Result=11111111111111111111111111111001
+
+                  10
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                             OR,
+ALUop=3,
+Result=11111111111111111111111111111101
+
+                  12
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            ORI,
+ALUop=4,
+Result=00000000000000001111111111110101
+
+                  14
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            SLL,
+ALUop=5,
+Result=11111111111111111111111111110100
+
+                  16
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            SRL,
+ALUop=6,
+Result=00111111111111111111111111111111
+
+                  18
+In1=00000000000000000000000000000101,
+In2=11111111111111111111111111111101,
+Imm=1111111111110100,
+UUT.ImmExt=00000000000000001111111111110100,
+Sh= 2,
+ALU_msg=                                                            SRA,
+ALUop=7,
+Result=11111111111111111111111111111111
+
+Simulation complete via $finish(1) at time 22 NS + 0
+./PART_C_TB.v:63 				#2 $finish; 
+ncsim> ^C
+ncsim> exit
+TOOL:	irun(64)	15.10-s014: Exiting on Jan 19, 2017 at 13:29:09 IST  (total: 00:02:38)
