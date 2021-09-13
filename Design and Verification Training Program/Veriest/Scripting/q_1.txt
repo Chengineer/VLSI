@@ -1,0 +1,46 @@
+Verification
+Pre-silicon verification implies building a test environment for a given hardware design (DUT or design under test). This verification environment (VE) drives stimuli to the DUT, collects the output and validates it. These tasks are split between different components inside the VE.
+
+The image below shows a simplified version of a VE consisting of the DUT and three components. The first component generates stimuli and drives them to the DUT. The second component collects information from the DUT’s output. And the scoreboard checks that the collected output matches what is expected for a given input. All of this happens while the design is described in a hardware description programming language (HDL) and before it is physically manufactured in a semiconductor factory.
+
+Simple Verification Environment Architecture
+The verification engineer builds VEs (similar to the one shown above), debugs them together with the DUT, and analyzes the verification results (e.g. failures, metrics). Depending on the complexity of the DUT, the engineer works either in teams or alone, while also keeping in close contact with the designer of the DUT. The designer receives reports of issues from the verification engineers and is responsible for fixing them.
+
+In order to identify flaws (i.e. bugs, issues), the verification engineer has to think of the different scenarios the DUT will face in real life and test those scenarios in the VE. After finding a bug, the engineer is also expected to have an idea about the possible source of the problem.
+
+In this way, the work of verification engineers can be compared to that of private detectives. They need to anticipate how the ‘target’ is going to behave, react to specific scenarios, test and track these scenarios, and ‘catch’ any undesired behavior. A lot of investigative work goes into this. And although the verification process is usually based on written documentation, most of the time other relevant sources of information are also required (previous projects, code comments, colleagues, etc.). Finally, the verification process is documented and provided to other parties for analysis.
+
+Prerequisites
+If what you’ve just read has aroused your interest and you think you’d like to embark on a career in this line of work, then here are some of the personal qualities that will make your journey easier:
+
+enthusiastic: to get results you will have to put the DUT under as much stress as possible by imagining new scenarios. This requires you to investigate whether these scenarios are possible and valid from an architectural point of view. You will also have to take initiative, ask questions, and express your concerns, etc. Anything that leads to the discovery of flaws in the hardware design is encouraged.
+curious and technically involved: you will work with technologies that are rapidly advancing and your curiosity for all things technical will keep you up to date. Many parts of the verification process can be and are updated on a regular basis. New procedures usually mean greater speed and more instruments with which to improve the verification process. So you should always be looking to learn new things and apply them to the project you’re working on.
+communicative and team player: you will work with(in) teams of engineers from different cultures. It is important to be able to share information and contribute to the team’s tasks while still keeping the project goals in mind. Apart from discovering bugs, you will also be responsible of delivering the ‘bad news’, so your bug reports have to be objective and neutral.
+organized: every new project starts with a planning session at which the main tasks to be performed are defined. There may also be other planning sessions once the project is underway in order to define other short and medium term tasks. The entire verification process will be documented and you have to keep track of your progress, work and any DUT failures. Verification often requires you perform multiple tasks at the same time. You will need to be highly organized in order to switch quickly between different tasks and not waste precious time.
+perseverant: some bugs are difficult to find or replicate. Sometimes you know something is wrong but you are not easily able to demonstrate it. Some aspects of a VE may also be tricky to implement. The verification languages used work on a higher level of abstraction and it can sometimes be hard to emulate low level behavior. There is always a solution, but you will have to spend time finding it.
+meticulous: making complex connections between components and the internal flows of the DUT requires tremendous attention to detail.
+abstract thinker: as you gain experience you will need to be able to identify patterns that will help speed up the building of a VE, as well as help identify more quickly the possible sources of failures.
+determined: when things are getting busy and some flaws in the design are put aside as being low priority, you will have constantly to draw attention to these flaws until they are solved.
+bold: you will work with concepts that are hard to grasp, with different opinions on the same subject arising all the time. There is no room for shyness here and your opinion, correctly argued, is important.
+thorough: having an inquisitive mind is paramount. You need to be constantly thinking of how things could go wrong and not be afraid to ‘break’ the DUT.
+patient: depending on the size of the DUT you are testing, simulations can take from a couple of minutes to days to complete. When you have to wait until tomorrow to see if the latest version of the VE is working, patience becomes important.
+You will develop some of the above qualities while working on actual projects, but this should give you an idea of the kind of person a verification engineer needs to be.
+
+To be …
+Let’s see what this industry can offer you:
+
+feeds your hunger for knowledge: you will always work with technology that is yet to be released on the market. This will keep you up-to-date with the latest trends and discoveries in the electronics industry.
+good income: you will have one of the highest starting salaries among fresh graduates, and as you gain experience your level of income will grow.
+intercultural experience: you may have to verify designs that come from around the globe, so you will meet and interact with a lot of people from different cultures.
+fulfilment: when a design verified by you goes into production, you will enjoy a feeling of fulfilment at having contributed to something that is used by a lot of people. And with every bug discovered, you will feel you have brought the design one step closer to perfection.
+action: you will rarely be bored. Different tasks/problems arise all the time. And what you are doing today may be completely different from what you were doing a week ago.
+… or not to be
+Nothing’s perfect, so let’s take a look at the downside of this job:
+
+lack of acknowledgement: you will have a very hard time explaining to friends and family what it is you do at work. For people without a technical background, it is not easy to understand pre-silicon verification. (For example, I have long since given up trying to explain what I do and now just tell people I’m a programmer, even though that’s not the whole truth.) And if people don’t really know what it is you do, they won’t acknowledge your contribution to making their lives better.
+intangible work results: although the verification environment you build is really important and a valuable part of the design process, it is not exactly the end product.
+you will have to deal with the typical problems faced by programmers and engineers: endless hours of debugging, poor documentation, theory vs. practice issues, etc.
+Conclusions
+To be a verification engineer requires technical knowledge in electronic design and some special skills like computer programming and managing interpersonal relationships. Working as a verification engineer is fun and rewarding if you have some of the qualities mentioned above or want to nourish them.
+
+As a verification engineer you will always be learning new things on the job and will get to play with the latest technologies. This is good for your intellectual well-being, too, as your brain will be asked to solve a new puzzle every day.
