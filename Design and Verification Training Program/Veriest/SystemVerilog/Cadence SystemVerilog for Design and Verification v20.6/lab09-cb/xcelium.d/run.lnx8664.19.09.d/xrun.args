@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+flipflop.sv
+flipflop_test.sv
+-gui
+-access
++rwc
+-s
