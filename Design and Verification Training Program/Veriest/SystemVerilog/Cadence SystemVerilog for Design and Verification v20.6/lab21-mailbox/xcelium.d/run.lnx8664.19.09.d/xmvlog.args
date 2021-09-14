@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.19.09.d
+-RUNMODE
+ex_trans_pkg.sv
+mailbox_if.sv
+mailbox_consumer_m.sv
+mailbox_producer_m.sv
+mailbox_top_m.sv
+-CDSLIB
+./xcelium.d/run.lnx8664.19.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.19.09.d/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.19.09.d/xllibs
+-ALLOWUNBOUND
