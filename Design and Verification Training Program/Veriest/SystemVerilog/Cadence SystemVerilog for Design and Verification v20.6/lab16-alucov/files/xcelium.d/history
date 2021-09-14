@@ -1,0 +1,5 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(25Aug2021:09:57:57):( xrun typedefs.sv alu.sv alu_test.sv -covdut alu_test -coverage U -covoverwrite -gui -access +rwc )
