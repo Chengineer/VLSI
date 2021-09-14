@@ -1,0 +1,22 @@
+$CDSROOT = /tools/cdnc/xcelium/current
+$TESTDIR = /home/cheng/Desktop/svlabs/lab20-simpledpi
+
+TOOL:	xmsc(64)	19.09-s010
+xmsc cc parameters: 
+	$CDSROOT/tools/cdsgcc/gcc/6.3/bin/gcc
+	-I$CDSROOT/tools/include
+	-I$CDSROOT/tools/inca/include 
+	-DXMSC
+	-DNCSC
+	-fPIC
+	-D_GLIBCXX_USE_CXX11_ABI=0 -c
+	-x c  -Wall
+
+make: Warning: File `./xcelium.d/run.lnx8664.19.09.d/xmsc_run/Makefile.xmsc' has modification time 25 s in the future
+xmsc: compiling $TESTDIR/stdlibs.c
+
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+make: Warning: File `./xcelium.d/run.lnx8664.19.09.d/xmsc_run/Makefile.xmsc' has modification time 24 s in the future
+building library run.so
+make: warning:  Clock skew detected.  Your build may be incomplete.

@@ -1,0 +1,2 @@
+stdlibs_0.o: /home/cheng/Desktop/svlabs/lab20-simpledpi/stdlibs.c \
+ /tools/cdnc/xcelium/19.09.010/tools.lnx86/cdsgcc/gcc/6.3/install/include/c++/6.3.0/stdlib.h  /tools/cdnc/xcelium/19.09.010/tools.lnx86/cdsgcc/gcc/6.3/install/lib/gcc/x86_64-redhat-linux/6.3.0/include/stddef.h  /tools/cdnc/xcelium/19.09.010/tools.lnx86/cdsgcc/gcc/6.3/install/include/c++/6.3.0/math.h 

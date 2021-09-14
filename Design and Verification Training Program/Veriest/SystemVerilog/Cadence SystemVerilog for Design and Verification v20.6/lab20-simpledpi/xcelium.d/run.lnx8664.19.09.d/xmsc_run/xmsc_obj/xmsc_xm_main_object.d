@@ -1,0 +1,1 @@
+main.o: /tools/cdnc/xcelium/current/tools/inca/src/main.cc

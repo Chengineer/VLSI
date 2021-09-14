@@ -1,0 +1,8 @@
+ 
+-DNCSC
+-DXMSC
+-D_GLIBCXX_USE_CXX11_ABI=0 -c
+-I/tools/cdnc/xcelium/current/tools/inca/include
+-I/tools/cdnc/xcelium/current/tools/include
+-fPIC
+-x c  -Wall
