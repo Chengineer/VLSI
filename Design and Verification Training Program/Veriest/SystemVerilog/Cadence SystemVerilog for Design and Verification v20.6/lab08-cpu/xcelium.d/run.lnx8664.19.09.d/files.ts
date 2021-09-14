@@ -1,0 +1,9 @@
+1624535643 /home/cheng/Desktop/svlabs/lab08-cpu/typedefs.sv
+1624956001 /home/cheng/Desktop/svlabs/lab08-cpu/alu.sv
+1624539190 /home/cheng/Desktop/svlabs/lab08-cpu/control.sv
+1624352418 /home/cheng/Desktop/svlabs/lab08-cpu/counter.sv
+1518181990 /home/cheng/Desktop/svlabs/lab08-cpu/mem.sv
+1623520476 /home/cheng/Desktop/svlabs/lab08-cpu/scale_mux.sv
+1623518638 /home/cheng/Desktop/svlabs/lab08-cpu/register.sv
+1518181990 /home/cheng/Desktop/svlabs/lab08-cpu/cpu.sv
+1592215879 /home/cheng/Desktop/svlabs/lab08-cpu/cpu_test.sv

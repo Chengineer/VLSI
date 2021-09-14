@@ -1,0 +1,3 @@
+xmsim(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+xmsim: *W,NCEXDEP: Executable (ncsim) is deprecated. Use (xmsim) instead.
+xmsim: *F,TOOMNS: More than one simulation name.

@@ -1,0 +1,35 @@
+s1(04Jul2021:14:09:37):  xrun mem.sv mem_test.sv top.sv 
+s2(04Jul2021:14:10:09):  xrun mem.sv mem_test.sv top.sv 
+s3(04Jul2021:14:10:19):  xrun mem.sv mem_test.sv top.sv 
+s4(04Jul2021:14:12:18):  xrun mem.sv mem_test.sv top.sv 
+s5(04Jul2021:14:12:48):  xrun mem.sv mem_test.sv top.sv 
+s6(04Jul2021:14:14:56):  xrun mem.sv mem_test.sv top.sv 
+s7(04Jul2021:14:16:23):  xrun mem.sv mem_test.sv top.sv 
+s8(04Jul2021:14:27:51):  xrun mem.sv mem_test.sv top.sv 
+s9(04Jul2021:14:28:47):  xrun mem.sv mem_test.sv top.sv 
+s10(04Jul2021:14:30:40):  xrun mem.sv mem_test.sv top.sv 
+s11(04Jul2021:14:31:10):  xrun mem.sv mem_test.sv top.sv 
+s12(04Jul2021:14:36:15):  xrun mem.sv mem_test.sv top.sv 
+s13(04Jul2021:14:37:28):  xrun mem.sv mem_test.sv top.sv 
+s14(04Jul2021:14:38:00):  xrun mem.sv mem_test.sv top.sv 
+s15(04Jul2021:14:39:26):  xrun mem.sv mem_test.sv top.sv -gui -access +rw 
+s16(04Jul2021:14:46:12):  xrun mem.sv mem_test.sv top.sv -gui -access +rw "-s " 
+s17(04Jul2021:15:54:04):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s18(04Jul2021:15:55:02):  xrun mem.sv mem_test.sv top.sv 
+s19(04Jul2021:15:55:59):  xrun mem.sv mem_test.sv top.sv 
+s20(04Jul2021:16:00:44):  xrun mem.sv mem_test.sv top.sv 
+s21(04Jul2021:16:39:20):  xrun mem.sv mem_test.sv top.sv 
+s22(04Jul2021:16:41:11):  xrun mem.sv mem_test.sv top.sv 
+s23(04Jul2021:16:41:25):  xrun mem.sv mem_test.sv top.sv 
+s24(04Jul2021:16:43:24):  xrun mem.sv mem_test.sv top.sv -gui -access +rw 
+s25(04Jul2021:16:55:16):  xrun mem.sv mem_test.sv top.sv -gui -access +rw "-s " 
+s26(04Jul2021:17:04:47):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s27(04Jul2021:17:05:17):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s28(04Jul2021:17:06:34):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s29(04Jul2021:17:07:26):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s30(04Jul2021:17:08:42):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s31(04Jul2021:17:11:22):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s32(04Jul2021:17:12:29):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s33(04Jul2021:17:16:00):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s34(04Jul2021:17:17:22):  xrun mem.sv mem_test.sv top.sv -gui -access +rw -s 
+s35(04Jul2021:17:23:52):  xrun mem.sv mem_test.sv top.sv 

@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(05Jul2021:22:12:12):( xrun typedefs.sv )
+s2::(05Jul2021:22:13:37):( xrun alu.sv control.sv counter.sv mem.sv scale_mux.sv register.sv cpu.sv cpu_test.sv )
+s3::(05Jul2021:22:14:40):( xrun alu.sv control.sv counter.sv mem.sv scale_mux.sv register.sv cpu.sv cpu_test.sv -access rwc )
+s4::(05Jul2021:22:15:50):( xrun alu.sv control.sv counter.sv mem.sv scale_mux.sv register.sv cpu.sv cpu_test.sv CPUtest1.dat CPUtest2.dat CPUtest3.dat -access rwc )
+s5::(05Jul2021:22:17:59):( xrun alu.sv control.sv counter.sv mem.sv scale_mux.sv register.sv cpu.sv cpu_test.sv -access rwc )

@@ -1,0 +1,14 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+alu.sv
+control.sv
+counter.sv
+mem.sv
+scale_mux.sv
+register.sv
+cpu.sv
+cpu_test.sv
+-access
+rwc

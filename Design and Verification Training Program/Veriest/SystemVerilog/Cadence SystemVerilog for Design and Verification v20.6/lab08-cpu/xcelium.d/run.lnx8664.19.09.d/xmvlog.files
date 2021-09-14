@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/cheng/Desktop/svlabs/lab08-cpu/alu.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/control.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/counter.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/mem.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/scale_mux.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/register.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/cpu.sv
+/home/cheng/Desktop/svlabs/lab08-cpu/cpu_test.sv
