@@ -1,0 +1,2033 @@
+*** Message Type: info ***
+When: Thu Aug 26 07:29:55 PM IDT 2021
+SimVision started.
+Version: TOOL:  simvision(64)   19.09-s010
+User: cheng
+Host: gw01.qb.veriest
+Platform: Linux/x86_64/2.6.32-754.28.1.el6.x86_64
+Started: Thu Aug 26 07:29:55 PM IDT 2021
+Command: /tools/cdnc/xcelium/current/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:gw01.qb.veriest:44353 -64BIT -nocopyright
+Work Directory: /home/cheng/Desktop/svlabs/lab19-svaseq
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:29:57 PM IDT 2021
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:30:00 PM IDT 2021
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:30:04 PM IDT 2021
+Connect to Simulator
+      Design: worklib.top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:   xmsim(64)       19.09-s010
+        User: cheng
+        Host: gw01.qb.veriest
+Time Started: Thu Aug 26 07:29:52 PM IDT 2021
+  Process ID: 16269
+   Directory: /home/cheng/Desktop/svlabs/lab19-svaseq
+     Command: xrun seqtest.sv -gui -access +rwc -linedebug
+
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:30:05 PM IDT 2021
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:30:30 PM IDT 2021
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:31:10 PM IDT 2021
+Create assertbrowser window: "Assertion Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Aug 26 07:31:21 PM IDT 2021
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:31:31 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:31:33 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:33:06 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:34:11 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:34:32 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:34:44 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:34:58 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Thu Aug 26 07:35:03 PM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:26:44 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:26:44 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:26:47 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:26:48 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:26:51 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:04 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:08 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:09 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:11 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:16 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:29 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:36 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:27:38 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:46:02 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:41 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:46 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:48 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:50 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:51 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Fri Aug 27 12:49:59 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:14:50 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:14:50 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:14:52 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:14:54 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:08 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:13 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:15 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:19 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:22 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:31 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:36 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:40 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:42 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:45 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:47 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:51 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:15:55 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:08 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:08 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:11 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:14 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:15 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:24 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:27 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:30 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:34 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:37 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:41 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:45 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:48 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:22:53 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:23:02 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: error ***
+When: Sun Aug 29 09:23:06 AM IDT 2021
+can't find node "5" in ::AssertTable::tree0
+    while executing
+"$_tree label $id"
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_doNotifyUsm" body line 8)
+    invoked from within
+"_doNotifyUsm $id $_selection(action)"
+    ("replace" arm line 4)
+    invoked from within
+"switch -- $_selection(action) {
+             clear {
+                    usm_notifyselect $_usmclient -name {} -selection deselect_all
+              }
+              replace - extend - desele..."
+    ("commit" arm line 6)
+    invoked from within
+"switch -- $op {
+   commit {
+
+          # notify USM That the selection changed
+        if { $_usm(block) == 0 && $_usmclient != "" } {
+            
+               switch -- $_selectio..."
+    (object "::.assertionBrowser0.work.user.assertframe.assertion" method "::AssertTable::_notifySelect" body line 9)
+    invoked from within
+"::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit"
+    (in namespace inscope "::AssertTable" script line 1)
+    invoked from within
+"namespace inscope ::AssertTable {::.assertionBrowser0.work.user.assertframe.assertion _notifySelect commit}"
+    ("after" script)
+ 
+*** Message Type: info ***
+When: Sun Aug 29 03:23:20 PM IDT 2021
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sun Aug 29 03:23:38 PM IDT 2021
+Delete assertbrowser window: "Assertion Browser 1"
+ 
+*** Message Type: info ***
+When: Sun Aug 29 03:23:48 PM IDT 2021
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Sun Aug 29 03:24:28 PM IDT 2021
+Exit XM-Sim: user
+      Design: worklib.top:sv
+   Languages: verilog assertion
+   Simulator: XM-Sim
+     Version: TOOL:   xmsim(64)       19.09-s010
+        User: cheng
+        Host: gw01.qb.veriest
+Time Started: Sun Aug 29 09:22:08 AM IDT 2021
+  Process ID: 10062
+   Directory: /home/cheng/Desktop/svlabs/lab19-svaseq
+     Command: xrun seqtest.sv -gui -access +rwc -linedebug -s
+
+ 
+*** Message Type: info ***
+When: Sun Aug 29 03:24:28 PM IDT 2021
+SimVision Exit.
+ 

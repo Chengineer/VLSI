@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+seqtest.sv
+-gui
+-access
++rwc
+-linedebug
+-s

@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Aug2021:18:37:47):( xrun seqtest.sv -gui -access +rwc -linedebug )
+s2::(26Aug2021:19:28:22):( xrun seqtest.sv -gui -access +rwc -linedebug "-s " )
+s3::(26Aug2021:19:28:31):( xrun seqtest.sv -gui -access +rwc -linedebug "-s " )
+s4::(26Aug2021:19:29:28):( xrun seqtest.sv -gui -access +rwc -linedebug )
+s5::(26Aug2021:19:29:41):( xrun seqtest.sv -gui -access +rwc -linedebug )
+s6::(26Aug2021:19:29:52):( xrun seqtest.sv -gui -access +rwc -linedebug )
+s7::(27Aug2021:00:26:42):( xrun seqtest.sv -gui -access +rwc -linedebug "-s " )
+s8::(29Aug2021:09:14:47):( xrun seqtest.sv -gui -access +rwc -linedebug -s )
+s9::(29Aug2021:09:22:07):( xrun seqtest.sv -gui -access +rwc -linedebug -s )
