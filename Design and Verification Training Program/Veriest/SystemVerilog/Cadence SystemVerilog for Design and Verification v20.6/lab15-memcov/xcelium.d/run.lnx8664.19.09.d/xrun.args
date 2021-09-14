@@ -1,0 +1,16 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+mem.sv
+mem_interface.sv
+mem_test.sv
+top.sv
+-covdut
+mem_test
+-coverage
+U
+-covoverwrite
+-gui
+-access
++rwc

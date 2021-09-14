@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(23Aug2021:18:34:58):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test.sv -coverage U -covoverwrite )
+s2::(23Aug2021:18:36:18):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test.sv -coverage U -covoverwrite )
+s3::(23Aug2021:18:37:06):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test.sv -coverage U -covoverwrite )
+s4::(23Aug2021:18:37:30):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite )
+s5::(23Aug2021:19:03:08):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rw )
+s6::(23Aug2021:19:07:23):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rw )
+s7::(23Aug2021:22:47:34):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rw )
+s8::(23Aug2021:22:48:16):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc )
+s9::(24Aug2021:12:41:57):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc "-s " )
+s10::(24Aug2021:12:54:06):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s11::(24Aug2021:14:16:42):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s12::(24Aug2021:14:24:45):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s13::(24Aug2021:14:29:22):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s14::(24Aug2021:14:31:56):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s15::(24Aug2021:14:32:44):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc -s )
+s16::(24Aug2021:14:38:11):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -acces )
+s17::(24Aug2021:14:38:28):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite )
+s18::(24Aug2021:14:38:39):( xrun mem.sv mem_interface.sv mem_test.sv top.sv -covdut mem_test -coverage U -covoverwrite -gui -access +rwc )

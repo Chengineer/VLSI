@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-COVDUT
+mem_test
+-COVERAGE
+U
+-ACCESS
++rwc
+-MESSAGES
+-XLMODE
+./xcelium.d/run.lnx8664.19.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.19.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.19.09.d/hdl.var
+-WORK
+worklib
+-HASXLMODE
