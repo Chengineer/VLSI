@@ -1,0 +1,16 @@
+class yapp_tx_monitor extends uvm_monitor;
+
+	// component utility macro
+	`uvm_component_utils(yapp_tx_monitor)
+
+	// component constructor
+	function new(string name, uvm_component parent);
+		super.new(name, parent);
+	endfunction
+
+	// UVM run phase
+	task run_phase(uvm_phase phase);
+		`uvm_info(get_type_name(), $sformatf("You are in the monitor's run_phase"), UVM_LOW)
+	endtask
+
+endclass: yapp_tx_monitor
