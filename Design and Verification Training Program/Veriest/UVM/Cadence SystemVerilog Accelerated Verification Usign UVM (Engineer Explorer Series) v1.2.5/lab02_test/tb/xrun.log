@@ -1,0 +1,205 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Dec 11, 2021 at 18:03:08 IST
+xrun
+	-f run.f
+		-64
+		-uvmhome /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		top.sv
+		+UVM_VERBOSITY=UVM_LOW
+		+UVM_TESTNAME=test2
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+Recompiling... reason: file './router_test_lib.sv' is newer than expected.
+	expected: Sat Dec 11 16:42:45 2021
+	actual:   Sat Dec 11 18:03:02 2021
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d
+file: ../sv/yapp_pkg.sv
+	package worklib.yapp_pkg:sv
+		errors: 0, warnings: 0
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uvm_pkg:sv <0x7fa30069>
+			streams:   6, words:  3451
+		worklib.uvm_pkg:sv <0x553a3844>
+			streams:   6, words:  3111
+		worklib.uvm_pkg:sv <0x61ded5c6>
+			streams:   5, words:  2521
+		worklib.uvm_pkg:sv <0x52659119>
+			streams:   7, words:  1918
+		worklib.uvm_pkg:sv <0x671df6ee>
+			streams:   8, words:  2765
+		worklib.uvm_pkg:sv <0x0cecf460>
+			streams:  21, words: 49760
+		worklib.uvm_pkg:sv <0x67914177>
+			streams:   7, words:  1918
+		worklib.uvm_pkg:sv <0x37272748>
+			streams:   7, words:  3055
+		worklib.uvm_pkg:sv <0x464848fe>
+			streams:   7, words:  3055
+		worklib.uvm_pkg:sv <0x6ebe460b>
+			streams:   8, words:  4063
+		worklib.uvm_pkg:sv <0x3359a62b>
+			streams:  24, words: 19457
+		worklib.uvm_pkg:sv <0x238d2c6e>
+			streams:  24, words: 18555
+		worklib.uvm_pkg:sv <0x3cf25776>
+			streams:  20, words: 18028
+		worklib.uvm_pkg:sv <0x1d7422f5>
+			streams:  11, words:  4039
+		worklib.uvm_pkg:sv <0x022e2102>
+			streams:  23, words: 27256
+		worklib.uvm_pkg:sv <0x781a40e9>
+			streams:   7, words:  2422
+		worklib.uvm_pkg:sv <0x699fb784>
+			streams:  12, words: 14021
+		worklib.uvm_pkg:sv <0x659b4059>
+			streams:  23, words: 22695
+		worklib.uvm_pkg:sv <0x0185ada4>
+			streams:  22, words: 47069
+		worklib.uvm_pkg:sv <0x389ad9de>
+			streams:  25, words: 31014
+		worklib.uvm_pkg:sv <0x426010c5>
+			streams:  24, words: 44862
+		worklib.uvm_pkg:sv <0x52790bb6>
+			streams:  25, words: 33562
+		worklib.uvm_pkg:sv <0x4ab024f9>
+			streams:  23, words: 49347
+		worklib.uvm_pkg:sv <0x0ab78529>
+			streams:  25, words: 35665
+		worklib.uvm_pkg:sv <0x6543c97c>
+			streams:  23, words: 55086
+		worklib.uvm_pkg:sv <0x1f66a0c0>
+			streams:  25, words: 40388
+		worklib.uvm_pkg:sv <0x221999cc>
+			streams:  23, words: 48395
+		worklib.uvm_pkg:sv <0x58d6e601>
+			streams:  23, words: 51911
+		worklib.uvm_pkg:sv <0x22ea0269>
+			streams:  25, words: 33106
+		worklib.uvm_pkg:sv <0x6aabb292>
+			streams:  23, words: 48159
+		worklib.uvm_pkg:sv <0x445a49c1>
+			streams:  25, words: 70534
+		worklib.uvm_pkg:sv <0x2bf7bced>
+			streams:  53, words: 68473
+		worklib.cdns_uvm_pkg:sv <0x012b57e5>
+			streams:  26, words: 33919
+		worklib.cdns_uvm_pkg:sv <0x096d9707>
+			streams:   8, words:  3870
+		worklib.cdns_uvm_pkg:sv <0x16abb6a0>
+			streams:  10, words:  8577
+		worklib.uvm_pkg:sv <0x57ae609e>
+			streams:  24, words: 64743
+		worklib.uvm_pkg:sv <0x634900c5>
+			streams:  19, words: 11385
+		worklib.top:sv <0x14862952>
+			streams:  21, words: 13847
+		worklib.uvm_pkg:sv <0x624c0382>
+			streams:   7, words:  3055
+		worklib.uvm_pkg:sv <0x0d7e4c1c>
+			streams:  20, words: 13057
+		worklib.top:sv <0x685f0568>
+			streams:   1, words:   782
+		worklib.yapp_pkg:sv <0x0266ccb0>
+			streams:   0, words:     0
+		worklib.cdns_uvm_pkg:sv <0x644df921>
+			streams: 128, words: 215116
+		worklib.cdns_uvmapi:svp <0x097d49cf>
+			streams:  27, words: 30214
+		worklib.cdns_assert2uvm_pkg:sv <0x797d48e2>
+			streams:   3, words:  2142
+		worklib.uvm_pkg:sv <0x48c3ff8e>
+			streams: 3939, words: 6279240
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 12926   10100
+		Named events:                  4      12
+		Initial blocks:              261     149
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       193     307
+		SV Class specializations:    345     345
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+xmsim: *W,XCLGNOPTM: The SystemVerilog constraint solver Xceligen options 'seed_only_rand and process_alternate_rng and ignore_worklib_name' are not specified and will default to 0. The recommended value for each of them is 1 which will become the default in a future release.
+SVSEED default: 1
+xmsim: *W,RNDXCELON: Xceligen, the new SystemVerilog constraint solver is used. Disabling Xceligen and using the legacy constraint solver is possible with "xrun/xmsim -xceligen on=0 ...".
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cdnc/xcelium/current/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (19.09-s010)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test2...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------
+Name          Type       Size  Value
+------------------------------------
+uvm_test_top  test2      -     @2556
+  tb          router_tb  -     @2605
+------------------------------------
+
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    2
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	19.09-s010: Exiting on Dec 11, 2021 at 18:03:21 IST  (total: 00:00:13)
