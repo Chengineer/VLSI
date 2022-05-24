@@ -1,0 +1,360 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on Nov 06, 2021 at 15:15:16 IST
+xrun
+	-f run.f
+		-64
+		-uvmhome /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		../sv/yapp_pkg.sv
+		top.sv
+Recompiling... reason: file './top.sv' is newer than expected.
+	expected: Sat Nov  6 15:13:04 2021
+	actual:   Sat Nov  6 15:15:13 2021
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d
+file: top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		yapp_pkg
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.top:sv <0x5f474839>
+			streams:   1, words:  5808
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                       1       1
+		Verilog packages:              5       5
+		Registers:                 12819   10070
+		Named events:                  4      12
+		Initial blocks:              252     146
+		Parallel blocks:              26      27
+		Assertions:                    2       2
+		SV Class declarations:       190     304
+		SV Class specializations:    339     339
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+xmsim: *W,XCLGNOPTM: The SystemVerilog constraint solver Xceligen options 'seed_only_rand and process_alternate_rng and ignore_worklib_name' are not specified and will default to 0. The recommended value for each of them is 1 which will become the default in a future release.
+SVSEED default: 1
+xmsim: *W,RNDXCELON: Xceligen, the new SystemVerilog constraint solver is used. Disabling Xceligen and using the legacy constraint solver is possible with "xrun/xmsim -xceligen on=0 ...".
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cdnc/xcelium/current/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (19.09-s010)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2540      
+  addr          integral       2     'h1        
+  length        integral       6     'h26       
+  payload       da(integral)   38    -          
+    [0]         integral       8     'h51       
+    [1]         integral       8     'h74       
+    [2]         integral       8     'ha0       
+    [3]         integral       8     'h41       
+    [4]         integral       8     'h23       
+    ...         ...            ...   ...        
+    [33]        integral       8     'h67       
+    [34]        integral       8     'hcb       
+    [35]        integral       8     'hfc       
+    [36]        integral       8     'hc1       
+    [37]        integral       8     'hfb       
+  parity        integral       8     'b10011010 
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd14       
+------------------------------------------------
+p1: (yapp_packet@2540) {
+  addr: 'h1 
+  length: 'h26 
+  payload: {
+    [0]: 'h51 
+    [1]: 'h74 
+    [2]: 'ha0 
+    [3]: 'h41 
+    [4]: 'h23 
+    ...... 
+    [33]: 'h67 
+    [34]: 'hcb 
+    [35]: 'hfc 
+    [36]: 'hc1 
+    [37]: 'hfb 
+  }
+  parity: 'b10011010 
+  parity_type: GOOD_PARITY 
+  packet_delay: 'd14 
+}
+p1: (yapp_packet@2540) { addr: 'h1  length: 'h26  payload: { [0]: 'h51  [1]: 'h74  [2]: 'ha0  [3]: 'h41  [4]: 'h23  ......  [33]: 'h67  [34]: 'hcb  [35]: 'hfc  [36]: 'hc1  [37]: 'hfb  } parity: 'b10011010  parity_type: GOOD_PARITY  packet_delay: 'd14  } 
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2574      
+  addr          integral       2     'h0        
+  length        integral       6     'h34       
+  payload       da(integral)   52    -          
+    [0]         integral       8     'h61       
+    [1]         integral       8     'h7a       
+    [2]         integral       8     'h33       
+    [3]         integral       8     'hf1       
+    [4]         integral       8     'h6e       
+    ...         ...            ...   ...        
+    [47]        integral       8     'h95       
+    [48]        integral       8     'hfd       
+    [49]        integral       8     'hee       
+    [50]        integral       8     'hd1       
+    [51]        integral       8     'h77       
+  parity        integral       8     'b10010110 
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd18       
+------------------------------------------------
+p1: (yapp_packet@2574) {
+  addr: 'h0 
+  length: 'h34 
+  payload: {
+    [0]: 'h61 
+    [1]: 'h7a 
+    [2]: 'h33 
+    [3]: 'hf1 
+    [4]: 'h6e 
+    ...... 
+    [47]: 'h95 
+    [48]: 'hfd 
+    [49]: 'hee 
+    [50]: 'hd1 
+    [51]: 'h77 
+  }
+  parity: 'b10010110 
+  parity_type: GOOD_PARITY 
+  packet_delay: 'd18 
+}
+p1: (yapp_packet@2574) { addr: 'h0  length: 'h34  payload: { [0]: 'h61  [1]: 'h7a  [2]: 'h33  [3]: 'hf1  [4]: 'h6e  ......  [47]: 'h95  [48]: 'hfd  [49]: 'hee  [50]: 'hd1  [51]: 'h77  } parity: 'b10010110  parity_type: GOOD_PARITY  packet_delay: 'd18  } 
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2571      
+  addr          integral       2     'h0        
+  length        integral       6     'h35       
+  payload       da(integral)   53    -          
+    [0]         integral       8     'he3       
+    [1]         integral       8     'h37       
+    [2]         integral       8     'h69       
+    [3]         integral       8     'hd4       
+    [4]         integral       8     'hd5       
+    ...         ...            ...   ...        
+    [48]        integral       8     'h3f       
+    [49]        integral       8     'hb0       
+    [50]        integral       8     'hcc       
+    [51]        integral       8     'h5        
+    [52]        integral       8     'he7       
+  parity        integral       8     'b1010101  
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd14       
+------------------------------------------------
+p1: (yapp_packet@2571) {
+  addr: 'h0 
+  length: 'h35 
+  payload: {
+    [0]: 'he3 
+    [1]: 'h37 
+    [2]: 'h69 
+    [3]: 'hd4 
+    [4]: 'hd5 
+    ...... 
+    [48]: 'h3f 
+    [49]: 'hb0 
+    [50]: 'hcc 
+    [51]: 'h5 
+    [52]: 'he7 
+  }
+  parity: 'b1010101 
+  parity_type: GOOD_PARITY 
+  packet_delay: 'd14 
+}
+p1: (yapp_packet@2571) { addr: 'h0  length: 'h35  payload: { [0]: 'he3  [1]: 'h37  [2]: 'h69  [3]: 'hd4  [4]: 'hd5  ......  [48]: 'h3f  [49]: 'hb0  [50]: 'hcc  [51]: 'h5  [52]: 'he7  } parity: 'b1010101  parity_type: GOOD_PARITY  packet_delay: 'd14  } 
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2544      
+  addr          integral       2     'h1        
+  length        integral       6     'h13       
+  payload       da(integral)   19    -          
+    [0]         integral       8     'he4       
+    [1]         integral       8     'h6f       
+    [2]         integral       8     'hb        
+    [3]         integral       8     'h4e       
+    [4]         integral       8     'hdb       
+    ...         ...            ...   ...        
+    [14]        integral       8     'ha8       
+    [15]        integral       8     'hbd       
+    [16]        integral       8     'h96       
+    [17]        integral       8     'h2d       
+    [18]        integral       8     'h12       
+  parity        integral       8     'b11110    
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd3        
+------------------------------------------------
+p1: (yapp_packet@2544) {
+  addr: 'h1 
+  length: 'h13 
+  payload: {
+    [0]: 'he4 
+    [1]: 'h6f 
+    [2]: 'hb 
+    [3]: 'h4e 
+    [4]: 'hdb 
+    ...... 
+    [14]: 'ha8 
+    [15]: 'hbd 
+    [16]: 'h96 
+    [17]: 'h2d 
+    [18]: 'h12 
+  }
+  parity: 'b11110 
+  parity_type: GOOD_PARITY 
+  packet_delay: 'd3 
+}
+p1: (yapp_packet@2544) { addr: 'h1  length: 'h13  payload: { [0]: 'he4  [1]: 'h6f  [2]: 'hb  [3]: 'h4e  [4]: 'hdb  ......  [14]: 'ha8  [15]: 'hbd  [16]: 'h96  [17]: 'h2d  [18]: 'h12  } parity: 'b11110  parity_type: GOOD_PARITY  packet_delay: 'd3  } 
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2640      
+  addr          integral       2     'h1        
+  length        integral       6     'h11       
+  payload       da(integral)   17    -          
+    [0]         integral       8     'h7e       
+    [1]         integral       8     'hf2       
+    [2]         integral       8     'h88       
+    [3]         integral       8     'hd7       
+    [4]         integral       8     'h2        
+    ...         ...            ...   ...        
+    [12]        integral       8     'h29       
+    [13]        integral       8     'hbb       
+    [14]        integral       8     'hb2       
+    [15]        integral       8     'he5       
+    [16]        integral       8     'h1        
+  parity        integral       8     'b1010011  
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd18       
+------------------------------------------------
+p1: (yapp_packet@2640) {
+  addr: 'h1 
+  length: 'h11 
+  payload: {
+    [0]: 'h7e 
+    [1]: 'hf2 
+    [2]: 'h88 
+    [3]: 'hd7 
+    [4]: 'h2 
+    ...... 
+    [12]: 'h29 
+    [13]: 'hbb 
+    [14]: 'hb2 
+    [15]: 'he5 
+    [16]: 'h1 
+  }
+  parity: 'b1010011 
+  parity_type: GOOD_PARITY 
+  packet_delay: 'd18 
+}
+p1: (yapp_packet@2640) { addr: 'h1  length: 'h11  payload: { [0]: 'h7e  [1]: 'hf2  [2]: 'h88  [3]: 'hd7  [4]: 'h2  ......  [12]: 'h29  [13]: 'hbb  [14]: 'hb2  [15]: 'he5  [16]: 'h1  } parity: 'b1010011  parity_type: GOOD_PARITY  packet_delay: 'd18  } 
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2640      
+  addr          integral       2     'h1        
+  length        integral       6     'h11       
+  payload       da(integral)   17    -          
+    [0]         integral       8     'h7e       
+    [1]         integral       8     'hf2       
+    [2]         integral       8     'h88       
+    [3]         integral       8     'hd7       
+    [4]         integral       8     'h2        
+    ...         ...            ...   ...        
+    [12]        integral       8     'h29       
+    [13]        integral       8     'hbb       
+    [14]        integral       8     'hb2       
+    [15]        integral       8     'he5       
+    [16]        integral       8     'h1        
+  parity        integral       8     'b1010011  
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd18       
+------------------------------------------------
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p2              yapp_packet    -     @2644      
+  addr          integral       2     'h1        
+  length        integral       6     'h11       
+  payload       da(integral)   17    -          
+    [0]         integral       8     'h7e       
+    [1]         integral       8     'hf2       
+    [2]         integral       8     'h88       
+    [3]         integral       8     'hd7       
+    [4]         integral       8     'h2        
+    ...         ...            ...   ...        
+    [12]        integral       8     'h29       
+    [13]        integral       8     'hbb       
+    [14]        integral       8     'hb2       
+    [15]        integral       8     'he5       
+    [16]        integral       8     'h1        
+  parity        integral       8     'b1010011  
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd18       
+------------------------------------------------
+------------------------------------------------
+Name            Type           Size  Value      
+------------------------------------------------
+p1              yapp_packet    -     @2546      
+  addr          integral       2     'h1        
+  length        integral       6     'h11       
+  payload       da(integral)   17    -          
+    [0]         integral       8     'h7e       
+    [1]         integral       8     'hf2       
+    [2]         integral       8     'h88       
+    [3]         integral       8     'hd7       
+    [4]         integral       8     'h2        
+    ...         ...            ...   ...        
+    [12]        integral       8     'h29       
+    [13]        integral       8     'hbb       
+    [14]        integral       8     'hb2       
+    [15]        integral       8     'he5       
+    [16]        integral       8     'h1        
+  parity        integral       8     'b1010011  
+  parity_type   parity_type_e  1     GOOD_PARITY
+  packet_delay  integral       32    'd18       
+------------------------------------------------
+p1 == p2
+UVM_INFO @ 0: reporter [MISCMP] Miscompare for p1.addr: lhs = 'h1 : rhs = 'h2
+UVM_INFO @ 0: reporter [MISCMP] 3 Miscompare(s) (1 shown) for object p1@2546 vs. p1@2640
+p1 != p3
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun(64)	19.09-s010: Exiting on Nov 06, 2021 at 15:15:22 IST  (total: 00:00:06)
