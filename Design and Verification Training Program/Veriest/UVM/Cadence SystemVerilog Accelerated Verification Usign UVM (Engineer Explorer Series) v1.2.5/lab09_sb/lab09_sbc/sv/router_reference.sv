@@ -1,0 +1,82 @@
+class router_reference extends uvm_component;
+
+	// TLM imp declarations for the YAPP and HBUS input connections
+	`uvm_analysis_imp_decl(_hbus)
+	`uvm_analysis_imp_decl(_yapp)
+
+	// TLM exports connected to interface UVC's (declaring handles of the above types with the correct type parameters)
+	uvm_analysis_imp_hbus #(hbus_transaction, router_reference) hbus_in;
+	uvm_analysis_imp_yapp #(yapp_packet, router_reference) yapp_in;
+
+	// TLM port to connect to scoreboard (declaring a port to output valid yapp_packets to the scoreboard)
+	uvm_analysis_port #(yapp_packet) sb_add_out;
+
+	// configuration information (declaring local variables to mirror the MAXPKTSIZE and router enable registers of the router, initialized to the reset values of the registers)
+	bit [7:0] max_pktsize_reg = 8'h3F;
+	bit [7:0] router_enable_reg = 1'b1;
+
+	// monitor statistics (counters for the received, dropped and transmitted packets)
+	int packets_dropped = 0;
+	int packets_forwarded = 0;
+	int jumbo_packets = 0;
+	int bad_addr_packets = 0;
+
+	`uvm_component_utils(router_reference)
+
+	// constructor
+	function new (string name = "", uvm_component parent = null);
+		super.new(name, parent);
+		// creating the input and output analysis instances in the constructor
+		// TLM connections to interface UVCs
+		hbus_in = new("hbus_in", this);
+		yapp_in = new("yapp_in", this);
+		// TLM connections to the scoreboard
+		sb_add_out = new("sb_add_out", this);
+	endfunction: new
+
+	// HBUS transaction TLM write implementation - the HBUS write function checks if the received transaction is a write to the control register for the MAXPKTSIZE field (address 'h1000) or the enable register (address 'h1001) and if so, updates the local register variables. read operations and writes to any other address are ignored.
+	function void write_hbus(hbus_transaction hbus_cmd);
+		`uvm_info(get_type_name(), $sformatf("Received HBUS Transaction: \n%s", hbus_cmd.sprint()), UVM_MEDIUM)
+		// for now- capture the max_pktsize_reg and router_enable_reg
+		// values whenever a hbus transaction is written
+		if(hbus_cmd.hwr_rd == HBUS_WRITE)
+			case(hbus_cmd.haddr)
+				'h1000: max_pktsize_reg = hbus_cmd.hdata;
+				'h1001: router_enable_reg = hbus_cmd.hdata;
+			endcase
+	endfunction
+
+	// YAPP transaction TLM write implementation
+	function void write_yapp(yapp_packet packet);
+		`uvm_info(get_type_name(), $sformatf("Received Input YAPP Packet: \n%s", packet.sprint()), UVM_LOW)
+		// check if router is enabled and packet has "valid size" before sending to scoreboard
+		// first, filter out address 3 packets
+		if(packet.addr == 3) begin
+			bad_addr_packets++;
+			packets_dropped++;
+			`uvm_info(get_type_name(), "YAPP Packet Dropped [BAD ADDRESS]", UVM_LOW)
+		end
+		// then, check the router is enabled and the packet length is less than or equal to MAXPKTSIZE. valid packets are written to the output analysis port. invalid packets are not forwarded, and we increment the appropriate counters.
+		else if((router_enable_reg != 0) && (packet.length <= max_pktsize_reg)) begin
+			// send packet to scoreboard via TLM port
+			sb_add_out.write(packet);
+			packets_forwarded++;
+			`uvm_info(get_type_name(), "Sent YAPP Packet to Scoreboard", UVM_LOW)
+		end
+		else if((router_enable_reg != 0) && (packet.length > max_pktsize_reg)) begin
+			jumbo_packets++;
+			packets_dropped++;
+			`uvm_info(get_type_name(), $sformatf("YAPP Packet Dropped [OVERSIZED] - pkt size %h max size %h",packet.length, max_pktsize_reg), UVM_LOW)
+		end
+		else if(router_enable_reg ==0) begin
+			packets_dropped++;
+			`uvm_info(get_type_name(), "YAPP Packet Dropped [DISABLED]", UVM_LOW)
+		end
+	endfunction
+
+	// UVM report_phase - print out the counter values
+	function void report_phase(uvm_phase phase);
+		`uvm_info(get_type_name(), $sformatf("Report:\n   Router Reference: Packet Statistics \n     Packets Dropped:   %0d\n     Packets Forwarded: %0d\n     Oversized Packets: %0d\n", packets_dropped, packets_forwarded, jumbo_packets ), UVM_LOW)
+	endfunction 
+
+endclass

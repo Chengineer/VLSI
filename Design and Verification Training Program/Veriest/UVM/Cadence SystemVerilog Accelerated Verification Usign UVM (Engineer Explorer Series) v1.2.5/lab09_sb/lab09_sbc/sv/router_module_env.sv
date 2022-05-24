@@ -1,0 +1,52 @@
+class router_env extends uvm_env;
+
+	// reference model connectors - exports declarations for the HBUS and YAPP connections to the reference model
+	uvm_analysis_export #(hbus_transaction) hbus_in;
+	uvm_analysis_export #(yapp_packet) yapp_in;
+
+	// scoreboard connectors - channel connections to the scoreboard (remember - exports have a single transaction type parameter)
+	uvm_analysis_export #(channel_packet) sb_chan0;
+	uvm_analysis_export #(channel_packet) sb_chan1;
+	uvm_analysis_export #(channel_packet) sb_chan2;
+
+	// router reference
+	router_reference reference;
+	
+	// router scoreboard
+	router_scoreboard scoreboard;
+
+	`uvm_component_utils_begin(router_env)
+	`uvm_component_utils_end
+
+	// UVM constructor
+	function new(input string name, input uvm_component parent = null);
+		super.new(name, parent);
+		// construct instances for each of the exports using direct constructor calls
+		hbus_in = new("hbus_in", this);
+		yapp_in = new("yapp_in", this);
+		sb_chan0 = new("sb_chan0", this);
+		sb_chan1 = new("sb_chan1", this);
+		sb_chan2 = new("sb_chan2", this);
+	endfunction: new
+
+	// UVM build_phase
+	function void build_phase(uvm_phase phase);
+		super.build_phase(phase);
+		// instantiate the refrence model and scoreboard
+		scoreboard = router_scoreboard::type_id::create("scoreboard", this);
+		reference = router_reference::type_id::create("reference", this);
+	endfunction: build_phase
+
+	// UVM connect_phase
+	function void connect_phase(uvm_phase phase);
+		// connect the local exports to the imps in the reference model and scoreboard instantiations
+		hbus_in.connect(reference.hbus_in);
+		yapp_in.connect(reference.yapp_in);
+		sb_chan0.connect(scoreboard.sb_chan0);
+		sb_chan1.connect(scoreboard.sb_chan1);
+		sb_chan2.connect(scoreboard.sb_chan2);
+		// connect the valid YAPP packet output port of the reference model to the input YAPP analysis imp of the scoreboard
+		reference.sb_add_out.connect(scoreboard.sb_yapp_in);
+	endfunction: connect_phase
+
+endclass: router_env
