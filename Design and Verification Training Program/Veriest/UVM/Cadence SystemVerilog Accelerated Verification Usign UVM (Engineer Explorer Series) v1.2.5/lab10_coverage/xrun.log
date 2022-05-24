@@ -1,0 +1,163 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on May 23, 2022 at 14:40:27 IDT
+xrun
+	yapp_tx_monitor.sv
+	-access +rwc
+	-gui
+	-coverage U
+file: yapp_tx_monitor.sv
+class yapp_tx_monitor extends uvm_monitor;
+                                        |
+xmvlog: *E,SVNOTY (yapp_tx_monitor.sv,1|40): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+	`uvm_component_utils(yapp_tx_monitor)
+	                   |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,4|20): `uvm_component_utils: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+	`uvm_component_utils(yapp_tx_monitor)
+	                    |
+xmvlog: *E,EXPENC (yapp_tx_monitor.sv,4|21): Expecting the keyword 'endclass'.
+	yapp_packet pkt;
+	          |
+xmvlog: *E,NOIPRT (yapp_tx_monitor.sv,10|11): Unrecognized declaration 'yapp_packet' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+	yapp_packet pkt;
+	          |
+xmvlog: *E,NCUITEM (yapp_tx_monitor.sv,10|11): Not a valid compilation unit/global item: 'interface_declaration' [SystemVerilog].
+	uvm_analysis_port #(yapp_packet) item_collected_port;
+	                  |
+xmvlog: *E,NCUITEM (yapp_tx_monitor.sv,16|19): Not a valid compilation unit/global item: 'module/udp instance' [SystemVerilog].
+	uvm_analysis_port #(yapp_packet) item_collected_port;
+	                                                    |
+xmvlog: *E,EXPLPA (yapp_tx_monitor.sv,16|53): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+	covergroup collected_pkts_cg;
+	         |
+xmvlog: *E,UPITEM (yapp_tx_monitor.sv,20|10): Covergroup declarations inside a compilation unit scope are not supported.
+	function new(string name, uvm_component parent);
+	           |
+xmvlog: *E,NEWOIC (yapp_tx_monitor.sv,33|12): The class constructor method 'new' is only allowed within a class declaration.
+	function new(string name, uvm_component parent);
+	                                      |
+xmvlog: *E,EXPRPA (yapp_tx_monitor.sv,33|39): expecting a right parenthesis (')') [A.2.6(IEEE)].
+	function new(string name, uvm_component parent);
+	                                      |
+xmvlog: *E,NOIPRT (yapp_tx_monitor.sv,33|39): Unrecognized declaration 'uvm_component' could be an unsupported keyword, a spelling mistake or missing instance port list '()' [SystemVerilog].
+	function new(string name, uvm_component parent);
+	                                      |
+xmvlog: *E,NOTINF (yapp_tx_monitor.sv,33|39): Interfaces are not allowed within tasks [SystemVerilog].
+	function new(string name, uvm_component parent);
+	                                             |
+xmvlog: *E,ILLPDL (yapp_tx_monitor.sv,33|46): Mixing of ansi & non-ansi style port declaration is not legal.
+	function new(string name, uvm_component parent);
+	                                              |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,33|47): expecting a semicolon (';') [12.3.2(IEEE)].
+		super.new(name, parent);
+		    |
+xmvlog: *E,EXPRPA (yapp_tx_monitor.sv,34|6): expecting a right parenthesis (')') [A.2.6(IEEE)].
+	function void start_of_simulation_phase(uvm_phase phase);
+	                                                |
+xmvlog: *E,SVNOTY (yapp_tx_monitor.sv,40|49): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		        |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,41|10): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		         |
+xmvlog: *E,NOTSTT (yapp_tx_monitor.sv,41|11): expecting a statement [9(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		                         |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,41|27): expecting a semicolon (';') [10.2.2][10.2(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		                                                     |
+xmvlog: *E,NOTLVL (yapp_tx_monitor.sv,41|55): illegal lvalue syntax [9.2(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		                                                                    |
+xmvlog: *E,NOTLVL (yapp_tx_monitor.sv,41|70): illegal lvalue syntax [9.2(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		                                                                        |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,41|74): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+		`uvm_info(get_type_name(), {"start of simulation for:", get_full_name()}, UVM_HIGH)
+		                                                                                  |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,41|84): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  task run_phase(uvm_phase phase);
+                         |
+xmvlog: *E,SVNOTY (yapp_tx_monitor.sv,45|25): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_info(get_type_name(), "Detected Reset Done", UVM_MEDIUM)
+            |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,49|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    `uvm_info(get_type_name(), "Detected Reset Done", UVM_MEDIUM)
+             |
+xmvlog: *E,NOTSTT (yapp_tx_monitor.sv,49|13): expecting a statement [9(IEEE)].
+    `uvm_info(get_type_name(), "Detected Reset Done", UVM_MEDIUM)
+                             |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,49|29): expecting a semicolon (';') [10.2.2][10.2(IEEE)].
+    `uvm_info(get_type_name(), "Detected Reset Done", UVM_MEDIUM)
+                                                                |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,49|64): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+              |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,65|14): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+               |
+xmvlog: *E,NOTSTT (yapp_tx_monitor.sv,65|15): expecting a statement [9(IEEE)].
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+                               |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,65|31): expecting a semicolon (';') [10.2.2][10.2(IEEE)].
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+                                         |
+xmvlog: *W,NOSYST (yapp_tx_monitor.sv,65|41): System function '$sformatf' invoked as a task. Return value will be ignored.
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+                                                                                  |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,65|82): expecting a semicolon (';') [10.2.2][14(IEEE)].
+      `uvm_info(get_type_name(), $sformatf("Packet Collected :\n%s", pkt.sprint()), UVM_LOW)
+                                                                                           |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,65|91): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  function void report_phase(uvm_phase phase);
+                                     |
+xmvlog: *E,SVNOTY (yapp_tx_monitor.sv,75|37): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+            |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,76|12): `uvm_info: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+             |
+xmvlog: *E,NOTSTT (yapp_tx_monitor.sv,76|13): expecting a statement [9(IEEE)].
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+                             |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,76|29): expecting a semicolon (';') [10.2.2][10.2(IEEE)].
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+                                       |
+xmvlog: *W,NOSYST (yapp_tx_monitor.sv,76|39): System function '$sformatf' invoked as a task. Return value will be ignored.
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+                                                                                                   |
+xmvlog: *E,EXPSMC (yapp_tx_monitor.sv,76|99): expecting a semicolon (';') [10.2.2][14(IEEE)].
+    `uvm_info(get_type_name(), $sformatf("Report: YAPP Monitor Collected %0d Packets", num_pkt_col), UVM_LOW)
+                                                                                                            |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,76|108): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+  function void connect_phase(uvm_phase phase);
+                                      |
+xmvlog: *E,SVNOTY (yapp_tx_monitor.sv,80|38): Syntactically this identifier appears to begin a datatype but it does not refer to a visible datatype in the current scope.
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+               |
+xmvlog: *E,NOTDIR (yapp_tx_monitor.sv,82|15): `uvm_error: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                |
+xmvlog: *E,NOTSTT (yapp_tx_monitor.sv,82|16): expecting a statement [9(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                        |
+xmvlog: *E,EXPRPA (yapp_tx_monitor.sv,82|24): expecting a right parenthesis (')') [9.4(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                                                               |
+xmvlog: *E,NOTLVL (yapp_tx_monitor.sv,82|63): illegal lvalue syntax [9.2(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                                                                              |
+xmvlog: *E,NOTLVL (yapp_tx_monitor.sv,82|78): illegal lvalue syntax [9.2(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                                                                                        |
+xmvlog: *E,NOTLVL (yapp_tx_monitor.sv,82|88): illegal lvalue syntax [9.2(IEEE)].
+      `uvm_error("NOVIF", {"Virtual interface must be set for: ", get_full_name(), ".vif"})
+                                                                                          |
+xmvlog: *E,MISEXX (yapp_tx_monitor.sv,82|90): expecting an '=' or '<=' sign in an assignment [9.2(IEEE)].
+endclass
+       |
+xmvlog: *E,MPANDC (yapp_tx_monitor.sv,85|7): expecting the keyword 'module', 'macromodule', 'primitive', 'connectmodule','connect', 'discipline' or 'nature' [A.1].
+xmvlog: *W,NOTOPL: no top-level unit found, must have recursive instances.
+	Total errors/warnings found outside modules and primitives:
+		errors: 48, warnings: 3
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	19.09-s010: Exiting on May 23, 2022 at 14:40:28 IDT  (total: 00:00:01)
