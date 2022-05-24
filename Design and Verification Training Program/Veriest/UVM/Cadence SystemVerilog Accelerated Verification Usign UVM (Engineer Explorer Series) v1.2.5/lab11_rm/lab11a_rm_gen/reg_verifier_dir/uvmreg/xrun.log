@@ -1,0 +1,178 @@
+xrun(64): 19.09-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.09-s010: Started on May 13, 2022 at 19:09:13 IDT
+xrun
+	-uvmhome default
+	./cdns_uvmreg_utils_pkg.sv
+	./yapp_router_regs_rdb.sv
+	./quicktest.sv
+	-vclass_ext
+	+UVM_TESTNAME=qt_test
+Loading snapshot worklib.test:sv .................... Done
+xmsim: *W,XCLGNOPTM: The SystemVerilog constraint solver Xceligen options 'seed_only_rand and process_alternate_rng and ignore_worklib_name' are not specified and will default to 0. The recommended value for each of them is 1 which will become the default in a future release.
+SVSEED default: 1
+xmsim: *W,RNDXCELON: Xceligen, the new SystemVerilog constraint solver is used. Disabling Xceligen and using the legacy constraint solver is possible with "xrun/xmsim -xceligen on=0 ...".
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cdnc/xcelium/current/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (19.09-s010)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test qt_test...
+UVM_INFO ./quicktest.sv(30) @ 0: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1009, data:'h8f, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 10: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 15: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h100a, data:'h51, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 25: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 30: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h100b, data:'heb, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 40: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 45: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1006, data:'h50, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 55: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 60: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1000, data:'h2e, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 70: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 75: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1001, data:'hda, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 85: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 90: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h100d, data:'h5a, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 100: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 105: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1005, data:'he9, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 115: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 120: HI0.drv [DRV] sending item
+data:"'{kind:UVM_WRITE, addr:'h1004, data:'hab, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 130: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 135: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1009, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 145: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 150: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h100a, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 160: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 165: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h100b, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 175: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 180: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1006, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 190: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 195: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1000, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 205: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 210: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1001, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 220: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 225: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h100d, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 235: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 240: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1005, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 250: HI0.drv [DRV] sending item complete
+UVM_INFO ./quicktest.sv(30) @ 255: HI0.drv [DRV] sending item
+data:"'{kind:UVM_READ, addr:'h1004, data:'h0, n_bits:8, byte_en:'hff, status:UVM_IS_OK}"
+UVM_INFO ./quicktest.sv(35) @ 265: HI0.drv [DRV] sending item complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Name                             Type                                                                               Size  Value                                                       
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+model                            yapp_router_regs_vendor_Cadence_Design_Systems_library_Yapp_Registers_version_1_5  -     @3722                                                       
+  router_yapp_regs               yapp_regs_c                                                                        -     @3790                                                       
+    addr0_cnt_reg                addr0_cnt_reg_c                                                                    -     @3825                                                       
+      addr0_cnt_reg_fld          uvm_reg_field                                                                      ...    RO addr0_cnt_reg[7:0]=8'h00                                
+    addr1_cnt_reg                addr1_cnt_reg_c                                                                    -     @3839                                                       
+      addr1_cnt_reg_fld          uvm_reg_field                                                                      ...    RO addr1_cnt_reg[7:0]=8'h00                                
+    addr2_cnt_reg                addr2_cnt_reg_c                                                                    -     @3857                                                       
+      addr2_cnt_reg_fld          uvm_reg_field                                                                      ...    RO addr2_cnt_reg[7:0]=8'h00                                
+    addr3_cnt_reg                illegal_addr_cnt_reg_c                                                             -     @3874                                                       
+      addr3_cnt_reg_fld          uvm_reg_field                                                                      ...    RO addr3_cnt_reg[7:0]=8'h00                                
+    ctrl_reg                     ctrl_reg_c                                                                         -     @3891                                                       
+      plen                       uvm_reg_field                                                                      ...    RW ctrl_reg[5:0]=6'h3f                                     
+    en_reg                       en_reg_c                                                                           -     @3908                                                       
+      router_en                  uvm_reg_field                                                                      ...    RW en_reg[0:0]=1'h1                                        
+      parity_err_cnt_en          uvm_reg_field                                                                      ...    RW en_reg[1:1]=1'h0                                        
+      oversized_pkt_cnt_en       uvm_reg_field                                                                      ...    RW en_reg[2:2]=1'h0                                        
+      addr0_cnt_en               uvm_reg_field                                                                      ...    RW en_reg[4:4]=1'h0                                        
+      addr1_cnt_en               uvm_reg_field                                                                      ...    RW en_reg[5:5]=1'h0                                        
+      addr2_cnt_en               uvm_reg_field                                                                      ...    RW en_reg[6:6]=1'h0                                        
+      addr3_cnt_en               uvm_reg_field                                                                      ...    RW en_reg[7:7]=1'h0                                        
+    mem_size_reg                 mem_size_reg_c                                                                     -     @3925                                                       
+      mem_size_reg_fld           uvm_reg_field                                                                      ...    RO mem_size_reg[7:0]=8'h00                                 
+    oversized_pkt_cnt_reg        oversized_pkt_cnt_reg_c                                                            -     @3960                                                       
+      oversized_pkt_cnt_reg_fld  uvm_reg_field                                                                      ...    RO oversized_pkt_cnt_reg[7:0]=8'h00                        
+    parity_err_cnt_reg           parity_err_cnt_reg_c                                                               -     @3977                                                       
+      parity_err_cnt_reg_fld     uvm_reg_field                                                                      ...    RO parity_err_cnt_reg[7:0]=8'h00                           
+  router_yapp_mem                yapp_mem_c                                                                         -     @3755                                                       
+    n_bits                       integral                                                                           32    'd8                                                         
+    size                         integral                                                                           32    'd256                                                       
+  router_yapp_pkt_mem            yapp_pkt_mem_c                                                                     -     @3777                                                       
+    n_bits                       integral                                                                           32    'd8                                                         
+    size                         integral                                                                           32    'd64                                                        
+    router                       uvm_reg_map                                                                        0     id=@3735 seqr=HI0.sqr offset=0x0 size=0x1200 baseaddr=0x0   
+      router_yapp_regs           uvm_reg_map                                                                        0     id=@3814 seqr=HI0.sqr offset=0x1000 size=0x5 baseaddr=0x1000
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Name                       Type                     Size  Value            
+---------------------------------------------------------------------------
+router                     uvm_reg_map              -     @3735            
+  endian                                            ...   UVM_LITTLE_ENDIAN
+  effective sequencer      uvm_sequencer            ...   HI0.sqr          
+  router_yapp_mem          yapp_mem_c               ...   @3755 +'h1100    
+  router_yapp_pkt_mem      yapp_pkt_mem_c           ...   @3777 +'h1010    
+  router_yapp_regs         uvm_reg_map              -     @3814            
+    endian                                          ...   UVM_LITTLE_ENDIAN
+    effective sequencer    uvm_sequencer            ...   HI0.sqr          
+    addr0_cnt_reg          addr0_cnt_reg_c          ...   @3825 +'h1009    
+    addr1_cnt_reg          addr1_cnt_reg_c          ...   @3839 +'h100a    
+    addr2_cnt_reg          addr2_cnt_reg_c          ...   @3857 +'h100b    
+    addr3_cnt_reg          illegal_addr_cnt_reg_c   ...   @3874 +'h1006    
+    ctrl_reg               ctrl_reg_c               ...   @3891 +'h1000    
+    en_reg                 en_reg_c                 ...   @3908 +'h1001    
+    mem_size_reg           mem_size_reg_c           ...   @3925 +'h100d    
+    oversized_pkt_cnt_reg  oversized_pkt_cnt_reg_c  ...   @3960 +'h1005    
+    parity_err_cnt_reg     parity_err_cnt_reg_c     ...   @3977 +'h1004    
+---------------------------------------------------------------------------
+UVM_INFO /tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 265: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   38
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV]    36
+[RNTST]     1
+[TEST_DONE]     1
+Simulation complete via $finish(1) at time 265 NS + 49
+/tools/cdnc/xcelium/current/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	19.09-s010: Exiting on May 13, 2022 at 19:09:14 IDT  (total: 00:00:01)
